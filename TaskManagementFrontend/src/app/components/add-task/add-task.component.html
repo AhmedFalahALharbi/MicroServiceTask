@@ -1,0 +1,5 @@
+<form (ngSubmit)="onSubmit()" class="add-task-form">
+    <input [(ngModel)]="task.title" name="title" placeholder="Task Title" required>
+    <textarea [(ngModel)]="task.description" name="description" placeholder="Task Description"></textarea>
+    <button type="submit">Add Task</button>
+  </form>
